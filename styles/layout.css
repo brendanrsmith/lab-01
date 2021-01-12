@@ -1,0 +1,72 @@
+.center-text {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* https://css-tricks.com/centering-css-complete-guide/ */
+}
+
+.a {
+    height: 75px;
+}
+.b {
+    height: 150px;
+}
+.c, .d {
+    height: 125px;
+}
+.e, .f, .g, .h {
+    height: 250px;
+    width: 50%;
+    float: left;
+}
+.i {
+    height: 80px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    * {
+        background-color: #66666630;
+    }
+    main {
+        overflow: hidden;
+        float: left;
+        width: 100%;
+    }
+    body{
+        max-width: 960px;
+        margin: auto;
+    }
+    .body-two {
+        display: block;
+    }
+    .a {
+        height: 100px;
+    }
+    .b {
+        float: left;
+        width: 20.8%;
+        height: 600px;
+    }
+    .c, .d {
+        height: 200px;
+        width: 50%;
+        float: left;
+        
+    }
+    .primary {
+        float: left;
+        width: 79.1%;
+        
+    }
+    .e, .f, .g, .h {
+        width: 25%;
+        height: 250px;
+    }
+    .i {
+        height: 150px;
+        width: 100%;
+    }
+}
+
