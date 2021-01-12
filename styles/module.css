@@ -1,0 +1,59 @@
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a{ 
+    background-color: rgb(51, 230, 176);
+}
+.b{ 
+    background-color: rgb(182, 63, 63);
+}
+.c{ 
+    background-color: rgb(49, 141, 57);
+}
+.d{ 
+    background-color: rgb(216, 118, 61);
+}
+.e{ 
+    background-color: rgb(107, 42, 121);
+}
+.f{ 
+    background-color: rgb(238, 62, 200);
+}
+.h{ 
+    background-color: rgb(141, 212, 48);
+}
+.i{ 
+    background-color: rgb(14, 206, 190);
+}
+
+@media (min-width: 768px) {
+    .a{ 
+        background-color: rgb(197, 230, 51);
+    }
+    .b{ 
+        background-color: rgb(111, 182, 63);
+    }
+    .c{ 
+        background-color: rgb(55, 49, 141);
+    }
+    .d{ 
+        background-color: rgb(211, 61, 216);
+    }
+    .e{ 
+        background-color: rgb(243, 231, 59);
+    }
+    .f{ 
+        background-color: rgb(62, 238, 179);
+    }
+    .h{ 
+        background-color: rgb(212, 48, 62);
+    }
+    .i{ 
+        background-color: rgb(36, 206, 14);
+    }
+}
